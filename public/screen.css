@@ -1,41 +1,47 @@
 html {
   text-size-adjust: 100%;
 }
-ul{
-display: flex;
-list-style: none;
-justify-content: space-between;
-align-items:center;
+
+ul {
+  display: flex;
+  list-style: none;
+  justify-content: space-between;
+  align-items: center;
 }
 
 nav {
-border-top: 4px blue;
-
+  border-top: 4px blue;
 }
-.gallery{
+
+.gallery {
   display: flex;
   flex-direction: column;
 }
-.gallery img{
-height: 150px;
-width: auto;
 
+.gallery img {
+  height: 150px;
+  width: auto;
 }
-.left-g{
+
+.left-g {
   display: flex;
 }
-.right-g{
+
+.right-g {
   display: flex;
 }
-.pagetext{
+
+.pagetext {
   display: flex;
 }
-.tophead{
+
+.tophead {
   display: flex;
   flex-direction: column;
 }
+
 body {
-  margin: ;
+  margin: 0;
   font: 16px / 1 sans-serif;
   background-color: pink;
 }
